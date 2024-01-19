@@ -1,0 +1,14 @@
+---
+model:
+  n_layers: 6
+  d_model: 32
+  d_ff: 128
+  n_heads: 8
+  dq: 4
+  dk: 4
+  dv: 4
+input:
+  vocab_size: 12
+  batch_size: 10
+  seq_len: 8
+  embed_dim: 32
