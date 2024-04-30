@@ -1,0 +1,13 @@
+---
+model:
+  n_layers: 6
+  d_model: [32,32,32,64,64,64] 
+  n_heads: 8  
+input:
+  vocab_size: [10,10,10,100,100,100]
+  batch_size: [30,30,30,30,30,30]
+  seq_len: [8,8,8,80,80,80]
+  embed_dim: [32,32,32,64,64,64]
+ 
+train:
+  epochs: [30,60,90,30,60,90]
